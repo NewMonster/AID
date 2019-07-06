@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+mysqlclient = {path = "C:/Users/Administrator/Downloads/mysqlclient-1.4.2-cp37-cp37m-win_amd64.whl"}
+djangorestframework = "*"
+djangorestframework-jwt = "*"
+celery = "==4.3.0"
+django-cors-headers = "==2.2.0"
+django-filter = "*"
+django-daterange-filter = "*"
+django-redis = "*"
+python-dateutil = "*"
+
+[requires]
+python_version = "3.7"
